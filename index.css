@@ -69,45 +69,31 @@ nav a:hover {
 }
 
 .content {
-  background-image: url("https://ak.picdn.net/shutterstock/videos/21648553/thumb/1.jpg");
-  background-repeat: repeat-y;
-  background-size: contain;
-  padding: 0px 12px;
+  position: fixed;
+  margin-top: 137px;
+  background-image: url("https://img.wallpapersafari.com/desktop/1600/900/84/34/Z7fgic.jpg");
+  background-size: cover;
+  padding: 0px 20px;
   border: 1px solid #ccc;
   margin-left: 10%;
-  width: 90%;
+  width: 89.1%;
   height: 100%;
-  font-family: 'Orbitron';
-  color: #00ffff;
 }
 
-.grid {
-  display:grid;
-  grid-template-columns: auto auto;
-  margin-left: 65px;
-}
-
-.sketch {
-  padding: 20px;
-  font-size: 20px;
-  text-align: left;
-}
-
-iframe {
-  border-width: 5px;
-  border-style: dotted;
-  border-color: slategray;
-}
-
-strong {
-  color: #006666;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: 'Changa';
-  text-shadow: 1px 1px darkgrey, 3px 3px 3px slategray;
-}
-
-h6 {
+h2 {
   display: block;
-  margin-top: 130px;
+  text-align: left;
+  color: #c78a6b;
+  font-family: "Audiowide";
+  font-size: 40px;
+  text-shadow: 1px 1px black, 5px 5px 5px slategray;
+}
+
+.content p {
+  display: block;
+  width: 50%;
+  color: #dec6ba;
+  text-align: justify;
+  line-height: 30px;
+  font-family: "Courier New", Courier, monospace;
 }
