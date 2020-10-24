@@ -85,6 +85,7 @@ nav a:hover {
   display:grid;
   grid-template-columns: auto auto;
   margin-left: 65px;
+  align-items: center;
 }
 
 .sketch {
