@@ -1,0 +1,126 @@
+* {box-sizing: border-box}
+
+html {
+  overflow:scroll;
+}
+
+body {
+  background: #001a00;
+  font-family: "Courier New",cursive,monospace;
+}
+
+.header {
+  overflow: hidden;
+  position:fixed;
+  border: 1px solid slategray;
+  background-color: #0B243B;
+  width: 99.1%;
+  height: 137px;
+}
+
+.header h1{
+  display: block;
+  background-color: rgba(13, 65, 115, 0.4);
+  color: white;
+  text-align: center;
+  font-family: 'Geostar';
+  padding: inherit;
+  font-size: 55px;
+  text-shadow: 1px 1px darkslategray, 5px 5px 5px darkslategray;
+}
+
+.tab {
+  position: fixed;
+  border: 1px solid slategray;
+  background-color: #0B243B;
+  width: 10%;
+  height: 100%;
+  margin-top: 137px;
+}
+
+.tab button {
+  display: block;
+  background-color: #0B3861;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: slategray;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav a:hover {
+  color: darkslategray;
+}
+
+.content {
+  background-image: url("https://i.pinimg.com/originals/9e/e2/bc/9ee2bc96f0fbdd4d5c60a78beea66f1c.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+  width: 90%;
+  height: 100%;
+  font-family: 'Orbitron';
+  color: LightCyan;
+  text-shadow: 2px 2px 3px black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a strong:hover {
+  color: white;
+  font-size: 50px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: auto auto;
+  margin-left: 65px;
+}
+
+.sketch {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: left;
+  align-content: center;
+}
+
+iframe {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: lightgray;
+}
+
+strong {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px deeppink, 0px 0px 15px purple, 0px 0px 40px magenta;
+  text-align: left;
+  font-family: 'Syne Mono';
+}
+
+h6 {
+  display: block;
+  margin-top: 130px;
+}
